@@ -5,11 +5,41 @@ ASP.NET Core MVC ile geliştirilmiş bu sistem, öğretmen ve öğrenciler için
 ---
 ## Galeri
 
-<a href="images/3.png">
+<a href="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197">
   <img src="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197" width="500"/>
 </a>
 
+<a href="https://github.com/user-attachments/assets/34b29b23-f1b5-44c1-9682-36ce0fa51a75">
+  <img src="https://github.com/user-attachments/assets/34b29b23-f1b5-44c1-9682-36ce0fa51a75" width="500"/>
+</a>
 
+<a href="https://github.com/user-attachments/assets/937f50b8-67c9-412e-8a0d-8e726e66cb38">
+  <img src="https://github.com/user-attachments/assets/937f50b8-67c9-412e-8a0d-8e726e66cb38" width="500"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/d4e95d30-bfc5-4c27-9b47-05c163c76ef6">
+  <img src="https://github.com/user-attachments/assets/d4e95d30-bfc5-4c27-9b47-05c163c76ef6" width="500"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/b16077c4-1688-4b43-a4f5-d283417d72be">
+  <img src="https://github.com/user-attachments/assets/b16077c4-1688-4b43-a4f5-d283417d72be" width="500"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/5b149c34-dace-402d-b255-cab9bca851d0">
+  <img src="https://github.com/user-attachments/assets/5b149c34-dace-402d-b255-cab9bca851d0" width="500"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/bd65237f-3d42-48ef-90e8-3d883306841e">
+  <img src="https://github.com/user-attachments/assets/bd65237f-3d42-48ef-90e8-3d883306841e" width="500"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/03f884c7-7b27-49b5-8059-2f2d1cfc3820">
+  <img src="https://github.com/user-attachments/assets/03f884c7-7b27-49b5-8059-2f2d1cfc3820" width="500"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197">
+  <img src="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197" width="500"/>
+</a>
 
 ---
 
