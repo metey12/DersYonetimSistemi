@@ -5,14 +5,12 @@ ASP.NET Core MVC ile geliştirilmiş bu sistem, öğretmen ve öğrenciler için
 ---
 ## Galeri
 
-<a href="<img width="2559" height="1299" alt="Ekran görüntüsü 2025-07-24 130624" src="https://github.com/user-attachments/assets/c4bbf31f-a98a-450f-b60e-841c79e13a10" />
-">
-  <img src="<img width="2559" height="1299" alt="Ekran görüntüsü 2025-07-24 130624" src="https://github.com/user-attachments/assets/0f535f4a-1118-4608-8e22-6d2ecaeb70bb" />
-" width="200"/>
-</a>
 <a href="images/3.png">
-  <img src="images/3.png" width="200"/>
+  <img src="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197" width="200"/>
 </a>
+
+
+
 ---
 
 ## 📚 Özellikler
