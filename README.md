@@ -6,7 +6,7 @@ ASP.NET Core MVC ile geliştirilmiş bu sistem, öğretmen ve öğrenciler için
 ## Galeri
 
 <a href="images/3.png">
-  <img src="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197" width="200"/>
+  <img src="https://github.com/user-attachments/assets/ebaeb8a2-ebc3-4c4e-a901-abb33088e197" width="500"/>
 </a>
 
 
