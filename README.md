@@ -3,6 +3,19 @@
 ASP.NET Core MVC ile geliştirilmiş bu sistem, öğretmen ve öğrenciler için ders yönetimi, içerik paylaşımı ve kullanıcı yönetimi gibi işlevleri barındırır. Kullanıcılar rollerine göre sisteme giriş yaparak yetkili oldukları işlemleri gerçekleştirebilir.
 
 ---
+## Galeri
+
+<a href="images/1.png">
+  <img src="<img width="2559" height="1299" alt="Ekran görüntüsü 2025-07-24 130624" src="https://github.com/user-attachments/assets/1292e5cf-7d32-4d43-9ae1-80a4433a94b0" />
+" width="200"/>
+</a>
+<a href="images/2.png">
+  <img src="images/2.png" width="200"/>
+</a>
+<a href="images/3.png">
+  <img src="images/3.png" width="200"/>
+</a>
+---
 
 ## 📚 Özellikler
 
