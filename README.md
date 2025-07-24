@@ -84,5 +84,5 @@ Bilgisayar Mühendisliği Öğrencisi
 
 Bu proje MIT lisansı ile lisanslanmıştır. Detaylar için `LICENSE` dosyasını inceleyin.
 
-<img width="2559" height="1299" alt="Ekran görüntüsü 2025-07-24 130624" src="https://github.com/user-attachments/assets/ed567fbf-6d3c-4ddc-b920-4cd298f6516c" />
+
 
