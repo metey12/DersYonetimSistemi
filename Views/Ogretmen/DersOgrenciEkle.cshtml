@@ -1,0 +1,36 @@
+@model DersYonetimSistemi.Models.DersOgrenciEkleModel
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <h3 class="mb-4 text-center text-primary">@Model.DersAdi - Öğrenci Ekle / Çıkar</h3>
+
+                    <form asp-action="DersOgrenciEkle" method="post" novalidate>
+                        <input type="hidden" asp-for="DersId" />
+
+                        <div class="mb-3">
+                            @for (int i = 0; i < Model.Ogrenciler.Count; i++)
+                            {
+                                <div class="form-check mb-2">
+                                    <input asp-for="Ogrenciler[i].Secili" class="form-check-input" id="chk_@i" />
+                                    <label class="form-check-label" for="chk_@i" style="cursor: pointer;">
+                                        @Model.Ogrenciler[i].AdSoyad
+                                    </label>
+                                    <input type="hidden" asp-for="Ogrenciler[i].OgrenciId" />
+                                </div>
+                            }
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-save me-2"></i> Kaydet
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

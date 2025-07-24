@@ -1,0 +1,51 @@
+@model Ders
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <h3 class="mb-3 text-primary">@Model.Ad</h3>
+                    <p class="mb-4">
+                        <strong>Öğretim Üyesi:</strong> @Model.Ogretmen.AdSoyad
+                    </p>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th style="width: 10%;">Hafta</th>
+                                    <th style="width: 55%;">Açıklama</th>
+                                    <th style="width: 35%;">Dosya</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var hafta in Model.Haftalar.OrderBy(w => w.Sayi))
+                                {
+                                    <tr>
+                                        <td><strong>@hafta.Sayi</strong></td>
+                                        <td>@hafta.Aciklama</td>
+                                        <td>
+                                            @if (hafta.Dosya != null)
+                                            {
+                                                <a href="@hafta.Dosya.DosyaYolu" target="_blank"
+                                                    class="btn btn-outline-success btn-sm">
+                                                    <i class="bi bi-file-earmark-pdf"></i> PDF'yi Görüntüle
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted fst-italic">Dosya eklenmedi</span>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+@model HaftaEkleModel
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <h4 class="mb-4">Yeni Hafta Ekle</h4>
+
+                    <form method="post" enctype="multipart/form-data" asp-action="HaftaEkle">
+                        <input asp-for="DersId" type="hidden" />
+
+                        <div class="mb-3">
+                            <label asp-for="Sayi" class="form-label"></label>
+                            <input asp-for="Sayi" class="form-control" />
+                            <span asp-validation-for="Sayi" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Aciklama" class="form-label"></label>
+                            <textarea asp-for="Aciklama" class="form-control" rows="4"></textarea>
+                            <span asp-validation-for="Aciklama" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="pdf" class="form-label">PDF Dosyası:</label>
+                            <input type="file" name="pdf" id="pdf" accept=".pdf" class="form-control" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Ekle</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

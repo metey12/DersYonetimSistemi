@@ -1,0 +1,62 @@
+@model AccountLoginModel
+<style>
+    .hero {
+        background: linear-gradient(135deg, #f0f4ff, #dbe9ff);
+        min-height: calc(100vh - 56px - 60px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hero h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .btn-lg {
+        width: 180px;
+        font-size: 1.2rem;
+    }
+</style>
+<section class="hero">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="card-title mb-4 text-center">Giriş Yap</h3>
+                        <form method="post" novalidate>
+                            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                            <div class="mb-3">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" class="form-control" placeholder="Email adresinizi girin" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Password" class="form-label"></label>
+                                <input asp-for="Password" class="form-control" placeholder="Şifrenizi girin"
+                                    type="password" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-4 form-check">
+                                <input asp-for="BeniHatirla" class="form-check-input" />
+                                <label asp-for="BeniHatirla" class="form-check-label"></label>
+                                <span asp-validation-for="BeniHatirla" class="text-danger"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

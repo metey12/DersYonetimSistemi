@@ -1,0 +1,38 @@
+@model Ogretmen
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="mb-0">@Model.AdSoyad - <span class="text-primary">Derslerim</span></h3>
+                        <a class="btn btn-success" asp-action="DersEkle">
+                            <i class="bi bi-plus-lg"></i> Ders Ekle
+                        </a>
+                    </div>
+
+
+                    @if (Model.Dersler != null && Model.Dersler.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var ders in Model.Dersler)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span class="fw-medium">@ders.Ad</span>
+                                    <a class="btn btn-outline-primary btn-sm" asp-action="Ders" asp-route-id="@ders.Id">
+                                        <i class="bi bi-gear"></i> Yönet
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info mt-3">Henüz eklenmiş ders yok.</div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

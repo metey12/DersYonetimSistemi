@@ -1,0 +1,65 @@
+@model AccountCreateModel
+<style>
+    .hero {
+        background: linear-gradient(135deg, #f0f4ff, #dbe9ff);
+        min-height: calc(100vh - 56px - 60px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .hero h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .btn-lg {
+        width: 180px;
+        font-size: 1.2rem;
+    }
+</style>
+<section class="hero">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <div class="card card-body">
+                    <form method="post" novalidate>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label asp-for="AdSoyad" class="form-label"></label>
+                            <input asp-for="AdSoyad" class="form-control">
+                            <span asp-validation-for="AdSoyad" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" class="form-control">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Password" class="form-label"></label>
+                            <input asp-for="Password" class="form-control">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ConfirmPassword" class="form-label"></label>
+                            <input asp-for="ConfirmPassword" class="form-control">
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input asp-for="OgretmenMi" class="form-check-input" />
+                            <label asp-for="OgretmenMi" class="form-check-label"></label>
+                            <span asp-validation-for="OgretmenMi" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
